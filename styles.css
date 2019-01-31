@@ -9,7 +9,7 @@ body {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #222;
-  background: #f7f5f0;
+  background: #DADBD6;
 }
 /* Link Styles */
 
@@ -20,6 +20,8 @@ a {
 a:hover {
   color: #6633ff;
 }
+
+
 
 /* Section Styles */
 
@@ -109,6 +111,19 @@ font-size: 1.5em;
   font-weight: bold;
 
 }
+
+.music {
+  padding-top: 25px;
+  margin-right: 20px;
+  width: 28%;
+  height: 28%;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+  min-width: 230px;
+  min-height: 144px;
+}
+
 .card {
   margin: 30px;
   padding: 20px 40px 40px;
@@ -120,7 +135,12 @@ font-size: 1.5em;
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #EB5525;
+}
+
+.music:hover {
+  border-color: #EB5525;
+
 }
 
 ul.skills {
